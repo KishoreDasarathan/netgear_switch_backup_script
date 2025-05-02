@@ -12,10 +12,5 @@ To streamline this, I built a Python automation script using Paramiko (SSH) that
 
 📁 The result: daily, consistent, hands-free backups — all stored neatly in organized folders.
 
-📌 Source Code on GitHub
-🔗 https://github.com/KishoreDasarathan/netgear_switch_backup_script/
-
 This tool is flexible, lightweight, and easy to scale across multiple switches — a small but powerful contribution to network automation.
-
-#Python #Automation #Networking #SSH #Netgear #Paramiko #NetworkEngineer #CyberSecurity #OpenSource #GitHub #Infrastructure
 
