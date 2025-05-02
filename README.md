@@ -1,21 +1,21 @@
-🚀 Automating Network Switch Backups with Python & SSH 🔐
+🚀 Automated Netgear Switch Backups with Python & SSH 🔐
 
-In our hospital's IT infrastructure, we manage 50+ Netgear switches, and maintaining their configuration backups is crucial for quick recovery and auditing. Manually backing them up was time-consuming and prone to human error.
+Managing dozens of network switches means configuration backups are essential — for disaster recovery, auditing, and peace of mind. Manually doing this? Time-consuming and error-prone.
 
-So, I automated the entire backup process using Python + Paramiko (SSH)! 🐍💻
+To streamline this, I built a Python automation script using Paramiko (SSH) that:
 
-✅ Automatically connects to each switch via SSH
-✅ Enters privileged mode (with enable)
-✅ Executes key commands like show running-config, show startup-config
-✅ Handles paginated outputs (--More--)
-✅ Saves config files into date-wise folders with proper naming conventions
+✅ Connects to each switch via SSH
+✅ Enters privileged mode if needed
+✅ Runs key commands like show running-config
+✅ Handles paginated outputs automatically
+✅ Saves configuration files in a structured, timestamped format
 
-🔒 This ensures all switch configurations are backed up securely and consistently every day — with zero manual intervention.
+📁 The result: daily, consistent, hands-free backups — all stored neatly in organized folders.
 
-Here's a glimpse of the script in action:
+📌 Source Code on GitHub
+🔗 https://github.com/KishoreDasarathan/netgear_switch_backup_script/
 
-python
-Copy
-Edit
-# Folder structure: E:\SWITCH\SWITCH-27-04-2025\10.1.1.11_20250427_154500.cfg
-📂 With this scalable approach, I can now easily plug in multiple switch IPs and keep their configurations backed up daily — a small step towards robust network automation and cyber resilience.
+This tool is flexible, lightweight, and easy to scale across multiple switches — a small but powerful contribution to network automation.
+
+#Python #Automation #Networking #SSH #Netgear #Paramiko #NetworkEngineer #CyberSecurity #OpenSource #GitHub #Infrastructure
+
